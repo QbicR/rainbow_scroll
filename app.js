@@ -11,11 +11,11 @@ sidebar.style.top = `-${(slidesCount.length - 1) * 100}vh`
 let activeSlideIndex = 0
 
 upBtn.addEventListener('click', () => {
-    changeSlide('up')
+    changeSlide('down')
 })
 
 downBtn.addEventListener('click', () => {
-    changeSlide('down')
+    changeSlide('up')
 })
 
 document.addEventListener('wheel', function (event) {
